@@ -4,7 +4,7 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background: conic-gradient(from .5turn at bottom center, lightblue, white);
+  --background: linear-gradient(to bottom right, #c7d2fe, #fef3c7);
 }
 
 @media (prefers-color-scheme: dark) {
