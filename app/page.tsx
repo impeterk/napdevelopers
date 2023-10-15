@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex h-screen flex-col items-center justify-between w-ful ">
+    <main className="flex h-[100svh] flex-col items-center justify-between w-ful ">
       <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-sm flex pt-12">
         <p className="dark:invert text-slate-600">
           Website Under Construction...
