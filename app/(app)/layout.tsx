@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} flex h-[100svh] flex-col items-center justify-between w-screen overflow-hidden`}
+        className={`${inter.className} h-[100svh] max-w-5xl grid grid-rows-layout mx-auto max-sm:items-center`}
       >
         <Header />
         {children}
